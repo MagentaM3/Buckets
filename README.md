@@ -3,7 +3,9 @@
 ## Running the Frontend
 ```
 cd frontend
-npm run dev
+# if you haven't run before
+npm install
+npx expo start
 ```
 
 ## Running the Backend
