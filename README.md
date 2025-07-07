@@ -6,6 +6,9 @@ cd frontend
 # if you haven't run before
 npm install
 npx expo start
+# Then scan QR code with Expo Go App
+# If it above doesn't work
+npx expo start --tunnel
 ```
 
 ## Running the Backend
