@@ -18,7 +18,9 @@ cd backend
 sudo apt-install maven
 # double check your java version
 java -version # should be openjdk 17
-mvn clean package
-docker compose-up --build
+// Run the database server in Docker
+docker compose up db -d
+// Build and run app
+mvn spring-boot:run
 ```
 
